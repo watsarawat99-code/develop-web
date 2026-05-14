@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>รวม Error Code แอร์ยี่ห้อดังและการแก้ไขเบื้องต้น | AirLux</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Kanit', sans-serif; line-height: 1.8; }
+        .prose h2 { font-size: 1.5rem; font-weight: 700; color: #1e3a8a; margin-top: 2rem; margin-bottom: 1rem; }
+        .prose p { margin-bottom: 1.25rem; color: #4b5563; }
+        .error-table { border-collapse: collapse; width: 100%; margin: 1.5rem 0; }
+        .error-table th, .error-table td { border: 1px solid #e5e7eb; padding: 12px; text-align: left; }
+        .error-table th { background-color: #f3f4f6; }
+    </style>
+</head>
+<body class="bg-white">
+
+    <nav class="border-b border-gray-100 py-4 px-4 sticky top-0 bg-white/90 backdrop-blur-md z-50">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+            <a href="blog.html" class="text-blue-600 font-semibold flex items-center">
+                <span class="mr-2">←</span> กลับไปหน้าสาระน่ารู้
+            </a>
+            <a href="index.html" class="text-2xl font-bold text-blue-800">AirLux</a>
+        </div>
+    </nav>
+
+    <article class="max-w-3xl mx-auto px-4 py-12">
+        
+        <header class="mb-10">
+            <div class="flex items-center text-sm text-blue-600 font-bold mb-4 uppercase">
+                <span>Technical Guide</span> • <span>8 พฤษภาคม 2026</span>
+            </div>
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
+                รวม Error Code แอร์ยี่ห้อดัง และวิธีแก้ไขเบื้องต้นด้วยตัวเองก่อนเรียกช่าง
+            </h1>
+            <div class="flex items-center gap-3 border-y border-gray-100 py-4">
+                <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold">AL</div>
+                <div>
+                    <p class="text-sm font-bold text-gray-800">โดย ทีมช่าง AirLux</p>
+                    <p class="text-xs text-gray-500">ผู้เชี่ยวชาญด้านระบบความเย็น แม่ริม เชียงใหม่</p>
+                </div>
+            </div>
+        </header>
+
+        <img src="https://via.placeholder.com/1200x675?text=Air+Conditioner+Error+Code+Check" alt="เช็ค Error Code แอร์" class="w-full rounded-2xl mb-10 shadow-lg">
+
+        <div class="prose">
+            <p>เคยไหมครับ? กำลังจะนอนสบายๆ แต่แอร์เจ้ากรรมดันหยุดทำงาน แถมมีไฟกระพริบที่หน้าเครื่อง หรือโชว์รหัสแปลกๆ บนรีโมท อย่าเพิ่งตกใจไปครับ รหัสเหล่านั้นเรียกว่า <strong>Error Code</strong> ซึ่งเป็นระบบวินิจฉัยตัวเองของแอร์รุ่นใหม่ๆ เพื่อบอกเราว่า "เขากำลังเจ็บป่วยตรงไหน"</p>
+            
+            <p>วันนี้ AirLux จะพาไปทำความรู้จักกับ Code ยอดฮิตที่พบบ่อยในเชียงใหม่บ้านเราครับ</p>
+
+            <h2>1. สังเกตอาการเบื้องต้น</h2>
+            <p>ก่อนจะดูรหัส ให้ลองเช็คสิ่งเหล่านี้ก่อนครับ:</p>
+            <ul class="list-disc ml-6 mb-6 text-gray-600">
+                <li>เบรกเกอร์แอร์สับลงหรือไม่?</li>
+                <li>รีโมทแบตเตอรี่หมดหรือเปล่า?</li>
+                <li>ฟิลเตอร์แอร์ตันจนลมไม่ออกไหม? (ถ้าตันมาก แอร์บางรุ่นจะตัดการทำงานทันที)</li>
+            </ul>
+
+            <h2>2. ตาราง Error Code ยอดนิยม</h2>
+            <div class="overflow-x-auto">
+                <table class="error-table">
+                    <thead>
+                        <tr>
+                            <th>ยี่ห้อ</th>
+                            <th>Code</th>
+                            <th>ความหมาย / วิธีแก้</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="font-bold">Daikin</td>
+                            <td class="text-red-600 font-mono">U2</td>
+                            <td>แรงดันไฟฟ้าผิดปกติ (พบบ่อยในแม่ริมเวลาไฟตก)</td>
+                        </tr>
+                        <tr>
+                            <td class="font-bold">Mitsubishi</td>
+                            <td class="text-red-600 font-mono">E6/E7</td>
+                            <td>การสื่อสารระหว่างคอยล์ร้อนและเย็นผิดปกติ</td>
+                        </tr>
+                        <tr>
+                            <td class="font-bold">Samsung</td>
+                            <td class="text-red-600 font-mono">C4</td>
+                            <td>เซ็นเซอร์แลกเปลี่ยนความร้อนมีปัญหา</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2>3. เมื่อไหร่ที่ต้องเรียกช่างมืออาชีพ?</h2>
+            <p>หากคุณลอง Reset เครื่องโดยการปิดเบรกเกอร์ทิ้งไว้ 5 นาทีแล้วเปิดใหม่ แต่ Code ยังกลับมาแสดงเหมือนเดิม นั่นหมายความว่าระบบภายในอาจมีปัญหา เช่น บอร์ดพัง หรือน้ำยาแอร์รั่วครับ</p>
+            
+            <p><strong>ข้อควรระวัง:</strong> ไม่ควรแกะเครื่องหรือเช็คระบบไฟด้วยตัวเองหากไม่มีความชำนาญ เพราะอาจทำให้บอร์ดลัดวงจรและเสียค่าซ่อมแพงกว่าเดิมครับ</p>
+        </div>
+
+        <div class="mt-16 bg-blue-50 border-2 border-blue-100 rounded-2xl p-8 text-center">
+            <h3 class="text-xl font-bold text-blue-900 mb-2">เช็ค Code แล้วแก้ไม่หาย?</h3>
+            <p class="text-blue-700 mb-6">ส่งรูปถ่าย Error Code มาให้เราช่วยประเมินอาการเบื้องต้นได้ฟรีผ่าน Line ครับ</p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#" class="bg-[#06C755] text-white px-8 py-3 rounded-xl font-bold hover:opacity-90 transition flex items-center justify-center">
+                    แอดไลน์ปรึกษาช่าง
+                </a>
+                <a href="tel:0XXXXXXXXX" class="bg-blue-600 text-white px-8 py-3 rounded-xl font-bold hover:bg-blue-700 transition flex items-center justify-center">
+                    โทรหา AirLux ด่วน
+                </a>
+            </div>
+        </div>
+
+        <div class="mt-12 pt-8 border-t border-gray-100 flex flex-wrap justify-between items-center gap-4">
+            <div class="flex gap-2">
+                <span class="bg-gray-100 px-3 py-1 rounded text-xs text-gray-500">#ล้างแอร์แม่ริม</span>
+                <span class="bg-gray-100 px-3 py-1 rounded text-xs text-gray-500">#ซ่อมแอร์เชียงใหม่</span>
+                <span class="bg-gray-100 px-3 py-1 rounded text-xs text-gray-500">#ErrorCode</span>
+            </div>
+        </div>
+    </article>
+
+    <footer class="bg-gray-50 py-12 border-t border-gray-100">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <p class="text-gray-400 text-sm italic">เนื้อหานี้เป็นลิขสิทธิ์ของ AirLux แม่ริม ห้ามคัดลอกก่อนได้รับอนุญาต</p>
+        </div>
+    </footer>
+
+</body>
+</html>

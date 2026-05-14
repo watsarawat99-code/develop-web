@@ -1,0 +1,129 @@
+/* ========================================
+   BLOG HERO
+======================================== */
+
+.hero-gradient {
+    background:
+        radial-gradient(circle at top left,
+            rgba(59, 130, 246, 0.12),
+            transparent 30%),
+
+        radial-gradient(circle at bottom right,
+            rgba(14, 165, 233, 0.12),
+            transparent 30%),
+
+        #f8fafc;
+}
+
+/* ========================================
+   BLOG CARD
+======================================== */
+
+.blog-card {
+    transition: all 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-card:hover img {
+    transform: scale(1.05);
+}
+
+.blog-card img {
+    transition: 0.3s ease;
+}
+
+/* ========================================
+   FEATURED ARTICLE
+======================================== */
+
+.featured-overlay {
+    background:
+        linear-gradient(to top,
+            rgba(15, 23, 42, 0.92),
+            rgba(15, 23, 42, 0.25));
+}
+
+/* ========================================
+   CATEGORY BUTTON
+======================================== */
+
+.category-btn {
+    transition: all 0.25s ease;
+}
+
+.category-btn:hover {
+    background: #eff6ff;
+    color: #2563eb;
+    border-color: #bfdbfe;
+}
+
+.category-btn.active {
+    background: #2563eb;
+    color: white;
+    border-color: #2563eb;
+}
+
+/* ========================================
+   BLOG SEARCH
+======================================== */
+
+.blog-search {
+    background: white;
+    border: 1px solid #e2e8f0;
+
+    transition: 0.3s;
+}
+
+.blog-search:focus {
+    border-color: #3b82f6;
+    box-shadow:
+        0 0 0 4px rgba(59, 130, 246, 0.12);
+}
+
+/* ========================================
+   BLOG META
+======================================== */
+
+.blog-meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    color: #64748b;
+
+    font-size: 0.875rem;
+}
+
+/* ========================================
+   BLOG CTA
+======================================== */
+
+.blog-cta {
+    position: relative;
+    overflow: hidden;
+
+    background:
+        linear-gradient(135deg,
+            #2563eb,
+            #0f172a);
+}
+
+/* ========================================
+   RESPONSIVE
+======================================== */
+
+@media (max-width: 768px) {
+
+    .featured-title {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .featured-image {
+        height: 420px;
+    }
+
+}

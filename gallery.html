@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ผลงานของเรา | AirLux แม่ริม เชียงใหม่</title>
+
+    <meta name="description" content="รวมผลงานจริง งานล้างแอร์ ซ่อมแอร์ และติดตั้งแอร์ ของ AirLux ในเขตแม่ริมและเชียงใหม่">
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        dark: '#0f172a',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+
+        body{
+            font-family:'Kanit',sans-serif;
+        }
+
+        .gallery-item:hover img{
+            transform: scale(1.05);
+        }
+
+        .gallery-item:hover .overlay{
+            opacity:1;
+        }
+
+        .filter-btn.active{
+            background:#2563eb;
+            color:white;
+            border-color:#2563eb;
+            box-shadow:0 10px 20px rgba(37,99,235,.18);
+        }
+
+        .gallery-item{
+            animation:fade .4s ease;
+        }
+
+        @keyframes fade{
+            from{
+                opacity:0;
+                transform:translateY(10px);
+            }
+            to{
+                opacity:1;
+                transform:translateY(0);
+            }
+        }
+
+    </style>
+
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- NAVBAR -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- HERO -->
+    <header class="pt-28 pb-10 px-4">
+
+        <div class="max-w-4xl mx-auto text-center">
+
+            <span class="inline-block px-4 py-1 rounded-full bg-blue-100 text-primary text-sm font-medium mb-5">
+                ผลงานจริงจากหน้างาน
+            </span>
+
+            <h1 class="text-4xl md:text-5xl font-bold leading-tight text-slate-900 mb-5">
+                ความภูมิใจในงานบริการ
+            </h1>
+
+            <p class="text-gray-600 text-lg leading-relaxed max-w-2xl mx-auto">
+                รวมภาพผลงานจริง ทั้งงานล้างแอร์ งานซ่อม และติดตั้งใหม่
+                ในเขตแม่ริมและเชียงใหม่ พร้อมบริการที่ใส่ใจทุกขั้นตอน
+            </p>
+
+        </div>
+
+    </header>
+
+    <!-- FEATURED -->
+    <section class="max-w-6xl mx-auto px-4 mb-8">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+
+            <!-- BIG CARD -->
+            <div class="relative overflow-hidden rounded-3xl shadow-lg group">
+
+                <img
+                    src="/assets/img/gallery/cleaning-before-after.webp"
+                    alt="Before After ล้างแอร์"
+                    class="w-full h-[420px] object-cover duration-500"
+                    loading="lazy"
+                >
+
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+
+                <div class="absolute bottom-0 left-0 p-7 text-white">
+
+                    <span class="inline-block bg-white/20 backdrop-blur-md px-4 py-1 rounded-full text-sm mb-3">
+                        ผลงานแนะนำ
+                    </span>
+
+                    <h2 class="text-3xl font-bold mb-2">
+                        Before / After ล้างแอร์
+                    </h2>
+
+                    <p class="text-white/80">
+                        เห็นความแตกต่างชัดเจนตั้งแต่ครั้งแรก
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- SIDE -->
+            <div class="grid grid-cols-1 gap-5">
+
+                <div class="relative overflow-hidden rounded-3xl shadow-md group">
+
+                    <img
+                        src="/assets/img/gallery/airlux-aircon-repair-chiangmai.webp"
+                        alt="งานซ่อมแอร์"
+                        class="w-full h-[200px] object-cover duration-500"
+                        loading="lazy"
+                    >
+
+                    <div class="absolute inset-0 bg-black/30"></div>
+
+                    <div class="absolute bottom-0 left-0 p-5 text-white">
+
+                        <h3 class="text-2xl font-semibold mb-1">
+                            งานซ่อมและวิเคราะห์
+                        </h3>
+
+                        <p class="text-white/80 text-sm">
+                            วิเคราะห์ตรงจุด ไม่เปลี่ยนอะไหล่มั่ว
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="relative overflow-hidden rounded-3xl shadow-md group">
+
+                    <img
+                        src="/assets/img/gallery/airlux-aircon-install.webp"
+                        alt="ติดตั้งแอร์ใหม่"
+                        class="w-full h-[200px] object-cover duration-500"
+                        loading="lazy"
+                    >
+
+                    <div class="absolute inset-0 bg-black/30"></div>
+
+                    <div class="absolute bottom-0 left-0 p-5 text-white">
+
+                        <h3 class="text-2xl font-semibold mb-1">
+                            งานติดตั้งใหม่
+                        </h3>
+
+                        <p class="text-white/80 text-sm">
+                            เดินท่อเรียบร้อย งานสวยทุกจุด
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FILTER -->
+    <section class="max-w-6xl mx-auto px-4 py-8">
+
+        <div class="flex flex-wrap justify-center gap-3 mb-10">
+
+            <button class="filter-btn active px-6 py-3 rounded-full border border-gray-200 bg-white font-medium transition-all duration-300"
+                data-filter="all">
+                ทั้งหมด
+            </button>
+
+            <button class="filter-btn px-6 py-3 rounded-full border border-gray-200 bg-white font-medium transition-all duration-300"
+                data-filter="clean">
+                ล้างแอร์
+            </button>
+
+            <button class="filter-btn px-6 py-3 rounded-full border border-gray-200 bg-white font-medium transition-all duration-300"
+                data-filter="repair">
+                งานซ่อม
+            </button>
+
+            <button class="filter-btn px-6 py-3 rounded-full border border-gray-200 bg-white font-medium transition-all duration-300"
+                data-filter="install">
+                ติดตั้งใหม่
+            </button>
+
+        </div>
+
+        <!-- GALLERY -->
+        <div
+            id="gallery"
+            class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
+        </div>
+
+
+        <!-- LOAD MORE -->
+        <div class="text-center mt-12">
+
+            <button
+                id="loadMoreBtn"
+                class="bg-primary hover:bg-blue-700 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 shadow-lg shadow-blue-200">
+        
+                ดูผลงานเพิ่มเติม
+        
+            </button>
+        
+        </div>
+
+    </section>
+
+    <!-- REVIEW -->
+    <section class="bg-blue-900 py-20 text-white mt-20">
+
+        <div class="max-w-4xl mx-auto text-center px-4">
+
+            <h2 class="text-3xl md:text-4xl font-bold mb-5">
+                ลูกค้ากว่า 500+ รายไว้วางใจ AirLux
+            </h2>
+
+            <p class="text-blue-100 text-lg leading-relaxed max-w-2xl mx-auto mb-8">
+                งานสะอาด ตรงเวลา ดูแลหน้างานเรียบร้อย พร้อมให้คำแนะนำแบบจริงใจ
+            </p>
+
+            <div class="flex justify-center gap-1 text-3xl mb-8">
+
+                <span>⭐</span>
+                <span>⭐</span>
+                <span>⭐</span>
+                <span>⭐</span>
+                <span>⭐</span>
+
+            </div>
+
+            <a href="https://facebook.com/yourpage"
+                class="inline-flex items-center gap-3 bg-white text-blue-900 px-8 py-4 rounded-full font-bold hover:bg-gray-100 transition">
+
+                ดูรีวิวเพิ่มเติมบน Facebook
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- CTA -->
+    <section class="py-20 px-4 bg-white">
+
+        <div class="max-w-5xl mx-auto bg-gradient-to-r from-blue-600 to-blue-800 rounded-[2rem] p-10 md:p-14 text-white text-center shadow-2xl">
+
+            <h2 class="text-3xl md:text-4xl font-bold mb-5">
+                ส่งรูปแอร์มาประเมินฟรี
+            </h2>
+
+            <p class="text-blue-100 text-lg mb-8">
+                ประเมินอาการเบื้องต้น พร้อมให้คำแนะนำก่อนเข้าหน้างาน
+            </p>
+
+            <div class="flex flex-wrap justify-center gap-4">
+
+                <a href="#"
+                    class="bg-green-500 hover:bg-green-600 px-8 py-4 rounded-full font-bold transition-all duration-300 shadow-lg shadow-green-900/30">
+
+                    LINE Official
+
+                </a>
+
+                <a href="#"
+                    class="bg-white text-blue-900 hover:bg-gray-100 px-8 py-4 rounded-full font-bold transition-all duration-300">
+
+                    โทรสอบถาม
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+    <!-- IMAGE MODAL -->
+    <div
+        id="imageModal"
+        class="fixed inset-0 bg-black/90 z-[999] hidden items-center justify-center p-4">
+    
+        <button
+            id="closeModal"
+            class="absolute top-5 right-5 text-white text-4xl">
+    
+            ×
+    
+        </button>
+    
+        <img
+            id="modalImage"
+            src=""
+            class="max-w-full max-h-full rounded-2xl"
+        >
+        <button
+            id="prevBtn"
+            class="absolute left-4 text-white text-5xl">
+                        
+         </button>
+                                
+        <button
+            id="nextBtn"
+            class="absolute right-4 text-white text-5xl">
+                                
+        </button>
+        
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer-placeholder"></div>
+
+    
+    <!-- MAIN JS -->
+    <script src="/assets/js/main.js" defer></script>
+    <script src="/assets/js/gallery.js" defer></script>
+
+</body>
+</html>

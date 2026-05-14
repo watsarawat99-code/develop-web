@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "slug": "water-drop-air",
+    "title": "แอร์น้ำหยดเกิดจากอะไร? พร้อมวิธีเช็กอาการก่อนเสียหนักกว่าเดิม",
+    "description": "รวมสาเหตุแอร์น้ำหยด พร้อมวิธีเช็กอาการเบื้องต้น และแนวทางแก้ไขก่อนแอร์เสียหนัก",
+    "category": "ความรู้เรื่องแอร์",
+    "image": "./assets/img/blog/water-drop-air.webp",
+    "date": "13 May 2026",
+    "readingTime": "5 นาทีอ่าน"
+  },
+
+  {
+    "id": 2,
+    "slug": "save-electricity",
+    "title": "เปิดแอร์ยังไงให้ประหยัดไฟ",
+    "description": "เทคนิคง่ายๆ ที่ช่วยลดค่าไฟได้จริง โดยไม่ต้องทนร้อน",
+    "category": "ประหยัดไฟ",
+    "image": "./assets/img/blog/save-electricity.webp",
+    "date": "10 May 2026",
+    "readingTime": "3 นาทีอ่าน"
+  },
+
+  {
+    "id": 3,
+    "slug": "water-drop-air",
+    "title": "แอร์น้ำหยดเกิดจากอะไร",
+    "description": "รวมสาเหตุที่ทำให้แอร์น้ำหยด พร้อมวิธีแก้เบื้องต้น",
+    "category": "ซ่อมแอร์",
+    "image": "./assets/img/blog/water-drop-air.webp",
+    "date": "10 May 2026",
+    "readingTime": "3 นาทีอ่าน"
+  }
+]

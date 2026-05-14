@@ -1,0 +1,165 @@
+/* ========================================
+   GLOBAL
+======================================== */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background: #f8fafc;
+    color: #0f172a;
+    overflow-x: hidden;
+}
+
+/* ========================================
+   CONTAINER
+======================================== */
+
+.container-custom {
+    max-width: 1280px;
+    margin: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+/* ========================================
+   TYPOGRAPHY
+======================================== */
+
+.section-title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 700;
+    line-height: 1.2;
+    color: #0f172a;
+}
+
+.section-description {
+    color: #64748b;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+/* ========================================
+   BUTTONS
+======================================== */
+
+.btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    background: #2563eb;
+    color: white;
+
+    padding: 14px 30px;
+
+    border-radius: 999px;
+
+    font-weight: 600;
+
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 14px 30px;
+
+    border-radius: 999px;
+
+    border: 1px solid #cbd5e1;
+
+    color: #0f172a;
+    background: white;
+
+    font-weight: 600;
+
+    transition: 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background: #f1f5f9;
+}
+
+/* ========================================
+   CARD
+======================================== */
+
+.card-hover {
+    transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-6px);
+}
+
+/* ========================================
+   SHADOW
+======================================== */
+
+.shadow-soft {
+    box-shadow:
+        0 10px 40px rgba(15, 23, 42, 0.08);
+}
+
+/* ========================================
+   IMAGE
+======================================== */
+
+.img-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ========================================
+   BADGE
+======================================== */
+
+.badge-blue {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    background: #dbeafe;
+    color: #2563eb;
+
+    padding: 8px 16px;
+
+    border-radius: 999px;
+
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+/* ========================================
+   ANIMATION
+======================================== */
+
+.fade-up {
+    animation: fadeUp 0.6s ease;
+}
+
+@keyframes fadeUp {
+
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}

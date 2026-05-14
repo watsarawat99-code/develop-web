@@ -1,0 +1,86 @@
+[
+    {
+        "category": "clean",
+        "image": "./assets/img/gallery/clean/airlux-ac-clean-001.webp"
+    },
+    {
+        "category": "clean",
+        "image": "./assets/img/gallery/clean/airlux-ac-clean-002.webp"
+    },
+    {
+        "category": "clean",
+        "image": "./assets/img/gallery/clean/airlux-ac-clean-003.webp"
+    },
+    {
+        "category": "clean",
+        "image": "./assets/img/gallery/clean/airlux-ac-clean-004.webp"
+    },
+    {
+        "category": "clean",
+        "image": "./assets/img/gallery/clean/airlux-ac-clean-005.webp"
+    },
+    {
+        "category": "clean",
+        "image": "./assets/img/gallery/clean/airlux-ac-clean-006.webp"
+    },
+        {
+        "category": "clean",
+        "image": "./assets/img/gallery/clean/airlux-ac-clean-007.webp"
+    },
+    {
+        "category": "clean",
+        "image": "./assets/img/gallery/clean/airlux-ac-clean-008.webp"
+    },
+    {
+        "category": "clean",
+        "image": "./assets/img/gallery/clean/airlux-ac-clean-009.webp"
+    },
+    {
+        "category": "clean",
+        "image": "./assets/img/gallery/clean/airlux-ac-clean-010.webp"
+    },
+    {
+        "category": "clean",
+        "image": "./assets/img/gallery/clean/airlux-ac-clean-011.webp"
+    },
+    {
+        "category": "clean",
+        "image": "./assets/img/gallery/clean/airlux-ac-clean-012.webp"
+    },
+        {
+        "category": "clean",
+        "image": "./assets/img/gallery/clean/airlux-ac-clean-013.webp"
+    },
+    {
+        "category": "clean",
+        "image": "./assets/img/gallery/clean/airlux-ac-clean-014.webp"
+    },
+    {
+        "category": "clean",
+        "image": "./assets/img/gallery/clean/airlux-ac-clean-015.webp"
+    },
+    {
+        "category": "clean",
+        "image": "./assets/img/gallery/clean/airlux-ac-clean-016.webp"
+    },
+    {
+        "category": "clean",
+        "image": "./assets/img/gallery/clean/airlux-ac-clean-017.webp"
+    },
+    {
+        "category": "clean",
+        "image": "./assets/img/gallery/clean/airlux-ac-clean-018.webp"
+    },
+    {
+        "category": "repair",
+        "image": "./assets/img/gallery/repair/airlux-ac-fix-001.webp"
+    },
+    {
+        "category": "repair",
+        "image": "./assets/img/gallery/repair/airlux-ac-fix-002.webp"
+    },
+    {
+        "category": "install",
+        "image": "./assets/img/gallery/install/install-001.webp"
+    }
+]

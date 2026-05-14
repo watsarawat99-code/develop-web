@@ -1,0 +1,199 @@
+/* ========================================
+   ARTICLE TYPOGRAPHY
+======================================== */
+
+.article-content h2 {
+    font-size: clamp(2rem, 4vw, 2.5rem);
+
+    font-weight: 700;
+
+    line-height: 1.3;
+
+    color: #0f172a;
+
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.article-content h3 {
+    font-size: 1.5rem;
+
+    font-weight: 600;
+
+    line-height: 1.4;
+
+    color: #1e293b;
+
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.article-content p {
+    color: #475569;
+
+    line-height: 2;
+
+    font-size: 1.1rem;
+
+    margin-bottom: 1.8rem;
+}
+
+/* ========================================
+   LIST
+======================================== */
+
+.article-content ul,
+.article-content ol {
+    margin: 1.5rem 0;
+    padding-left: 1.5rem;
+}
+
+.article-content li {
+    margin-bottom: 1rem;
+
+    color: #475569;
+
+    line-height: 1.9;
+}
+
+/* ========================================
+   IMAGE
+======================================== */
+
+.article-content img {
+    width: 100%;
+
+    border-radius: 32px;
+
+    margin: 3rem 0;
+
+    box-shadow:
+        0 15px 40px rgba(15, 23, 42, 0.08);
+}
+
+/* ========================================
+   BLOCKQUOTE
+======================================== */
+
+.article-content blockquote {
+    border-left: 5px solid #2563eb;
+
+    background: #eff6ff;
+
+    padding: 2rem;
+
+    border-radius: 0 24px 24px 0;
+
+    margin: 3rem 0;
+
+    color: #1e3a8a;
+
+    font-size: 1.1rem;
+
+    line-height: 1.9;
+
+    font-weight: 500;
+}
+
+/* ========================================
+   TABLE
+======================================== */
+
+.article-content table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin: 2rem 0;
+
+    overflow: hidden;
+
+    border-radius: 20px;
+}
+
+.article-content table th {
+    background: #2563eb;
+
+    color: white;
+
+    padding: 16px;
+
+    text-align: left;
+}
+
+.article-content table td {
+    padding: 16px;
+
+    border-bottom: 1px solid #e2e8f0;
+
+    color: #475569;
+
+    background: white;
+}
+
+/* ========================================
+   TOC
+======================================== */
+
+.toc-link {
+    transition: 0.25s;
+}
+
+.toc-link:hover {
+    color: #2563eb;
+    transform: translateX(3px);
+}
+
+/* ========================================
+   RELATED ARTICLE
+======================================== */
+
+.related-card {
+    transition: 0.3s ease;
+}
+
+.related-card:hover {
+    transform: translateY(-5px);
+}
+
+.related-card:hover img {
+    transform: scale(1.05);
+}
+
+.related-card img {
+    transition: 0.3s ease;
+}
+
+/* ========================================
+   ARTICLE CTA
+======================================== */
+
+.article-cta {
+    position: relative;
+    overflow: hidden;
+
+    background:
+        linear-gradient(135deg,
+            #2563eb,
+            #0f172a);
+}
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media (max-width: 768px) {
+
+    .article-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .article-content p {
+        font-size: 1rem;
+    }
+
+    .article-content img {
+        border-radius: 24px;
+    }
+
+}

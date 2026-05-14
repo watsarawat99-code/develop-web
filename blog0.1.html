@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สาระน่ารู้เรื่องแอร์ | AirLux ศูนย์ความรู้เครื่องปรับอากาศ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Kanit', sans-serif; }
+        .blog-card:hover img { transform: scale(1.05); }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <div id="navbar-placeholder"></div>
+
+
+    <header class="relative pt-28 pb-12 hero-gradient overflow-hidden">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-4xl font-bold text-gray-800 mb-4">The AirLux Journal</h1>
+            <p class="text-gray-600 text-lg">รวบรวมเทคนิคการดูแลแอร์ วิธีแก้ปัญหาเบื้องต้น และสาระน่ารู้ที่จะช่วยคุณประหยัดค่าไฟ</p>
+            
+            <div class="mt-8 max-w-md mx-auto relative">
+                <input type="text" placeholder="ค้นหาบทความ เช่น Error Code, วิธีล้างแอร์..." class="w-full px-5 py-3 rounded-full border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm">
+                <button class="absolute right-3 top-2 bg-blue-600 text-white p-1.5 rounded-full hover:bg-blue-700">🔍</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            
+            <article class="blog-card bg-white rounded-2xl shadow-sm overflow-hidden border border-gray-100 flex flex-col">
+                <div class="overflow-hidden h-48">
+                    <img src="https://via.placeholder.com/600x400?text=Error+Code+Guide" alt="วิธีเช็ค Error Code แอร์" class="w-full h-full object-cover transition duration-300">
+                </div>
+                <div class="p-6 flex-grow">
+                    <div class="flex items-center text-xs text-blue-600 font-bold mb-3 uppercase tracking-wider">
+                        <span>Technical</span> • <span>5 นาทีอ่าน</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3 hover:text-blue-600 cursor-pointer">รวม Error Code แอร์ยี่ห้อดัง และวิธีแก้ไขเบื้องต้นด้วยตัวเอง</h3>
+                    <p class="text-gray-600 text-sm mb-6 line-clamp-3">แอร์ไฟกระพริบหมายความว่าอย่างไร? เราสรุป Code สำคัญของ Daikin, Mitsubishi และ Samsung มาให้คุณแล้ว...</p>
+                </div>
+                <div class="px-6 pb-6 mt-auto">
+                    <a href="#" class="text-blue-600 font-semibold text-sm flex items-center">อ่านต่อ <span class="ml-2">→</span></a>
+                </div>
+            </article>
+
+            <article class="blog-card bg-white rounded-2xl shadow-sm overflow-hidden border border-gray-100 flex flex-col">
+                <div class="overflow-hidden h-48">
+                    <img src="https://via.placeholder.com/600x400?text=Save+Electricity" alt="วิธีประหยัดไฟแอร์" class="w-full h-full object-cover transition duration-300">
+                </div>
+                <div class="p-6 flex-grow">
+                    <div class="flex items-center text-xs text-green-600 font-bold mb-3 uppercase tracking-wider">
+                        <span>Saving Tips</span> • <span>3 นาทีอ่าน</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3 hover:text-blue-600 cursor-pointer">5 เทคนิคเปิดแอร์ยังไงให้เย็นฉ่ำ แต่ค่าไฟลดลงถึง 30%</h3>
+                    <p class="text-gray-600 text-sm mb-6 line-clamp-3">หน้าร้อนนี้ไม่ต้องกลัวบิลค่าไฟสูงลิ่ว ลองใช้วิธีปรับอุณหภูมิและการดูแลแอร์แบบง่ายๆ ที่ใครก็ทำได้...</p>
+                </div>
+                <div class="px-6 pb-6 mt-auto">
+                    <a href="#" class="text-blue-600 font-semibold text-sm flex items-center">อ่านต่อ <span class="ml-2">→</span></a>
+                </div>
+            </article>
+
+            <article class="blog-card bg-white rounded-2xl shadow-sm overflow-hidden border border-gray-100 flex flex-col">
+                <div class="overflow-hidden h-48">
+                    <img src="https://via.placeholder.com/600x400?text=Chiang+Mai+Air+Care" alt="ล้างแอร์เชียงใหม่" class="w-full h-full object-cover transition duration-300">
+                </div>
+                <div class="p-6 flex-grow">
+                    <div class="flex items-center text-xs text-orange-600 font-bold mb-3 uppercase tracking-wider">
+                        <span>Local Care</span> • <span>4 นาทีอ่าน</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3 hover:text-blue-600 cursor-pointer">ฝุ่นควันในเชียงใหม่ ส่งผลอย่างไรต่อแอร์บ้านคุณ?</h3>
+                    <p class="text-gray-600 text-sm mb-6 line-clamp-3">ทำไมชาวแม่ริมและเชียงใหม่ควรล้างแอร์บ่อยกว่าพื้นที่อื่นในช่วงฤดูฝุ่น PM 2.5 มาหาคำตอบกัน...</p>
+                </div>
+                <div class="px-6 pb-6 mt-auto">
+                    <a href="#" class="text-blue-600 font-semibold text-sm flex items-center">อ่านต่อ <span class="ml-2">→</span></a>
+                </div>
+            </article>
+
+        </div>
+
+        <div class="mt-20 bg-blue-900 rounded-3xl p-10 text-center text-white">
+            <h2 class="text-2xl font-bold mb-4">ไม่อยากพลาดสาระดีๆ และโปรโมชั่นพิเศษ?</h2>
+            <p class="text-blue-200 mb-8">ติดตามความรู้เรื่องแอร์จากเราได้ผ่าน Line OA ของ AirLux</p>
+            <a href="#" class="bg-white text-blue-900 px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition inline-block">ติดตามเราบน Line</a>
+        </div>
+    </main>
+
+     <div id="footer-placeholder"></div>
+
+    <script src="./assets/js/main.js"></script>
+
+</body>
+</html>
